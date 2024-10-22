@@ -1,5 +1,6 @@
 using Dima.Core.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Dima.Api.Data.Mappings;
 
@@ -8,9 +9,7 @@ public class TransactionMapping : IEntityTypeConfiguration<Transaction>
     public void Configure(EntityTypeBuilder<Transaction> builder)
     {
         builder.ToTable("Transaction");
-
         builder.HasKey(x => x.Id);
-
         builder.Property(x => x.Title)
             .IsRequired(true)
             .HasColumnType("NVARCHAR")

@@ -1,0 +1,8 @@
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.csproj.AssemblyReference.cache
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.AssemblyInfoInputs.cache
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.AssemblyInfo.cs
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.csproj.CoreCompileInputs.cache
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.sourcelink.json
