@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dima.Api",
+    "\\Dima.Api\\Data",
+    "\\Dima.Api\\Data\\Mappings",
+    "\\Dima.Core",
+    "\\Dima.Core\\Models"
+  ],
+  "SelectedNode": "\\Dima.Core\\Models\\Category.cs",
+  "PreviewInSolutionExplorer": false
+}
