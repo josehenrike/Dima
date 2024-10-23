@@ -62,7 +62,38 @@ app.MapDelete(
     })
 
 .WithName("Categories: Delete")
-.WithSummary("Exclui uma nova categoria")
+.WithSummary("Exclui uma categoria")
+.Produces<Response<Category?>>();
+
+app.MapGet(
+    "/v1/categories/",
+    async (ICategoryHandler handler) =>
+    {
+        var request = new GetAllCategoriesRequest()
+        {
+            UserId = "test@techshop.com"
+        };
+        return await handler.GetAllAsync(request);
+    })
+
+.WithName("Categories: Get All")
+.WithSummary("Retorna todas as categoria")
+.Produces<PagedResponse<List<Category>?>>();
+
+app.MapGet(
+    "/v1/categories/{id}",
+    async (long id, ICategoryHandler handler) =>
+    {
+        var request = new GetCategoryByIdRequest
+        {
+            Id = id,
+            UserId = "test@techshop.com"
+        };
+        return await handler.GetByIdAsync(request);
+    })
+
+.WithName("Categories: Get by Id")
+.WithSummary("Retorna uma  categoria")
 .Produces<Response<Category?>>();
 
 app.Run();
