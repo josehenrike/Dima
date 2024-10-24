@@ -144,3 +144,5 @@ C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\refint\Dima.Api
 C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.pdb
 C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\Dima.Api.genruntimeconfig.cache
 C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\obj\Debug\net8.0\ref\Dima.Api.dll
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jose.henrike\Desktop\Dev\Dima\Dima.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
