@@ -1,4 +1,6 @@
-namespace Dima.Core.Request.Transactions;
+using Dima.Core.Requests;
+
+namespace Dima.Core.Requests.Transactions;
 
 public class GetTransactionsByPeriodRequest : PagedRequest
 {
