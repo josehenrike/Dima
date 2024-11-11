@@ -1,14 +1,20 @@
 <mat-toolbar class="header mat-elevation-z4">
+    <app-nav></app-nav>
     <span>
         <a routerLink="/">
+            <img class="logo" src="assets/img/logo2.png" alt="logo">
         </a>
     </span>
     <span class="title-group">
         <a>
-            <i class="material-icons">
-                home
-            </i>
-            Teste
+            Dima
         </a>
     </span>
+
+    <div class="exit">
+        <button mat-icon-button (click)="deslogar()">
+            <mat-icon>logout</mat-icon>
+        </button>
+    </div>
+
 </mat-toolbar>

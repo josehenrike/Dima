@@ -4,7 +4,6 @@ using Dima.Api.Endpoints.Identity;
 using Dima.Api.Endpoints.Transactions;
 using Dima.Api.Models;
 using DIma.Api.Endpoints.Categories;
-using DIma.APi.Endpoints.Identity;
 
 namespace Dima.Api.Endpoints;
 

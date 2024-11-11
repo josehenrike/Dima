@@ -1,5 +1,7 @@
 <mat-card-content class="container">
     <mat-card class="card-login">
+        <img class="logo" src="assets/img/logo2.png" alt="logo">
+        <p class="title">Dima | Seu Controle Financeiro</p>
         <mat-card-title class="login">Login</mat-card-title>
         <form [formGroup]="formLogin" novalidate>
             <mat-card-content class="conteudo-login">
@@ -26,7 +28,7 @@
             </mat-card-content>
         </form>
         <mat-card-actions align="end">
-            <button mat-button color="primary" class="full" align="end" (click)="logar()">Entrar</button>
+            <button mat-button class="full" align="end" (click)="logar()">Entrar</button>
         </mat-card-actions>
     </mat-card>
 </mat-card-content>

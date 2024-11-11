@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { UsuarioService } from '../services/usuario.service'; // Import the UsuarioService
-import { Router } from '@angular/router'; // Import the Router
+import { UsuarioService } from '../services/usuario.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,9 +9,9 @@ import { Router } from '@angular/router'; // Import the Router
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  formLogin!: FormGroup; // Declaração da propriedade
+  formLogin!: FormGroup;
 
-  constructor(private fb: FormBuilder, private usuarioService: UsuarioService, private router: Router) { } // Inject the UsuarioService and Router
+  constructor(private fb: FormBuilder, private usuarioService: UsuarioService, private router: Router) { }
 
   ngOnInit(): void {
     // Inicializando a propriedade formLogin

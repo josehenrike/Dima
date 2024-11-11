@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.header .logo {
+    max-height: 32px;
+}
+
+.header .title-group {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.header .title-group i {
+    padding-right: 10px;
+}
+
+.exit {
+    padding-left: 92%;
+}
